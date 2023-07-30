@@ -5,7 +5,7 @@ export default function Home() {
       return (
         <div>
           <Head>
-            <title>Agile Process Website</title>
+            <title>Hello Professor</title>
           </Head>
     
           <main>
