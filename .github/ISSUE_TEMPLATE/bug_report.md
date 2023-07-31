@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Playwright test setup.
 title: ''
 labels: ''
 assignees: ''
@@ -8,31 +8,15 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+When the Playwright test is setup it won't run the Autograding Successfully.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+1. Go to Action tab.
+2. Click on the last Workflow job that failed.
+3. Scroll down to the bottom.
 4. See error
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+npm ERR! Missing script: "test"
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
